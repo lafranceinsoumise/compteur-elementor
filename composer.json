@@ -1,0 +1,14 @@
+{
+    "name": "lafranceinsoumise/compteur-elementor",
+    "description": "Un shortcode pour compter le nombre de soumissions d'un formulaire elementor.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Salomé Cheysson",
+            "email": "salome@cheysson.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
