@@ -140,6 +140,7 @@ function compteur_elementor_shortcode($atts) {
     return "{$compteur_format}<!-- {$status} -->";
 }
 
+
 function compteur_elementor_init() {
     add_action(
         'compteur_elementor_calculer_valeur_action',
@@ -151,5 +152,9 @@ function compteur_elementor_init() {
 }
 
 add_action('init', 'compteur_elementor_init');
+
+if ( defined( 'WP_CLI' ) && WP_CLI ) {
+    require_once 'cli.php';
+}
 
 ?>
